@@ -4,6 +4,7 @@ This is the backend for my Better Assignment project.
 It is built using Flask (Python) and provides REST API endpoints for managing comments.
 The API supports operations like Add, Edit, Delete, and Fetch comments.
 
+
 ⚙️ Tech Stack
 
 Python
@@ -33,8 +34,12 @@ python app.py
 The backend will start at → http://127.0.0.1:5000
 
 🔗 API Endpoints
-Method	Endpoint	Description
-GET	/comments	Fetch all comments
-POST	/comments	Add a new comment
-PUT	/comments/<id>	Update a comment
-DELETE	/comments/<id>	Delete a comment
+| Method | Endpoint         | Description        |
+| ------ | ---------------- | ------------------ |
+| GET    | `/comments`      | Fetch all comments |
+| POST   | `/comments`      | Add a new comment  |
+| PUT    | `/comments/<id>` | Update a comment   |
+| DELETE | `/comments/<id>` | Delete a comment   |
+
+Video Demo
+https://www.loom.com/share/854fdb8f61aa44399d49753f5a581e32
